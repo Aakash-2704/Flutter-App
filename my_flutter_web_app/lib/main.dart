@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Aakash Kumar Portfolio',
       theme: ThemeData(
-        primarySwatch: Colors.black,
+        primarySwatch: Colors.blue,
       ),
       home: const HomeScreen(),
     );
@@ -57,7 +57,7 @@ class HeaderSection extends StatelessWidget {
             style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           ),
           const Text(
-            'Your Title/Profession',
+            'Data Engineer',
             style: TextStyle(fontSize: 18),
           ),
         ],
